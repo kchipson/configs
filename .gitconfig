@@ -1,0 +1,18 @@
+[user]
+	name = Kirill Mironenko
+	email = kchipson@yandex.ru
+[core]
+	editor = code -w
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	cm = commit
+	commend = commit --amend --no-edit
+	undo = reset --soft HEAD~1
+	glog = log --graph --abbrev-commit --decorate --all --format=format:\"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)\"
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	ui = auto
